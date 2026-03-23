@@ -1,0 +1,17 @@
+.glow-text {
+  text-shadow: 0 0 10px rgba(229, 255, 0, 0.5);
+}
+
+.glow-border {
+  box-shadow: 0 0 8px rgba(229, 255, 0, 0.3);
+}
+
+.hover-lift {
+  transition-property: transform;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+}
